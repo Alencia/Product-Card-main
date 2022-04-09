@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product {
+    position: absolute;
+    padding: 0.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 580px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+button,
+option {
+    font-family: "Poppins", sans-serif;
+}
+
+select,
+option {
+    font-size: 1.1rem;
+    padding: 0.3rem;
+}
+
+i {
+    cursor: pointer;
+}
+
+.bagicon {
+    position: absolute;
+    right: 6%;
+    font-size: 1.5rem;
+    color: orange;
+}
+
+.showimage>img {
+    width: 360px;
+    height: 240px;
+    transform: scale(1);
+    padding: 3rem 2rem 1.5rem 1rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 20px;
+}
+
+.price>p {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.price>i {
+    font-size: 1.5rem;
+}
+
+.description>h2 {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.description>p {
+    padding: 0rem 0.5rem;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    font-weight: 900;
+}
+
+.colors>div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.addtobasket {
+    position: absolute;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    bottom: 10px;
+    margin: 0px auto;
+    padding: 0.5rem;
+    width: 330px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.addtobasket:hover {
+    background-color: darkorange;
+}
+
+.mark-color {
+    border: 3px solid gray;
+}
+
+.bx:hover {
+    opacity: 0.7;
+}
+
+@keyframes fadeout {
+    from {}
+    to {
+        opacity: 0;
+    }
+}
